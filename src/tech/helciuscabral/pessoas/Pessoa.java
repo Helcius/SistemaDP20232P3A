@@ -12,7 +12,8 @@ public class Pessoa {
     }
 
     public int obterIdade(){
-        return 0;
+        int idade = 0;
+         return idade;
     }
 
 
