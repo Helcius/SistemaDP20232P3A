@@ -15,4 +15,35 @@ public class Funcionario extends Pessoa {
 
     }
 
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public String getDataAdmicao() {
+        return dataAdmicao;
+    }
+
+    public void setDataAdmicao(String dataAdmicao) {
+        this.dataAdmicao = dataAdmicao;
+    }
 }
